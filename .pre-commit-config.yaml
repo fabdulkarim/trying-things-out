@@ -2,4 +2,4 @@ repos:
 - repo: .
   rev: pre-commit/v0.1.2
   hooks:
-  - id: tf-entry-sorter
+  - id: terraform-entry-sorter
