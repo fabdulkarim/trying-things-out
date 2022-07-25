@@ -1,5 +1,5 @@
 repos:
 - repo: .
-  rev: pre-commit/v0.1.2
+  rev: 84256e0cd10151fdf5bae3273743c69e779a88e3
   hooks:
   - id: terraform-entry-sorter

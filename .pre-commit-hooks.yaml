@@ -4,6 +4,6 @@
   name: terraform-entry-sorter
   description: Check and fix certain terraform entry
   language: python
-  entry: hooks/terraform-entry-sorter.py
+  entry: python -m hooks/terraform-entry-sorter.py
   pass_filenames: false
   always_run: true
