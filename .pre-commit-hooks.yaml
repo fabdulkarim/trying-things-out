@@ -1,0 +1,9 @@
+# This configuration file allows our pre-commit hooks to be used with pre-commit: http://pre-commit.com/
+
+- id: tf-entry-sorter
+  name: tf-entry-sorter
+  description: Check and fix certain terraform entry
+  entry: hooks/terraform-entry-sorter.py
+  language: script
+  pass_filenames: false
+  always_run: true
