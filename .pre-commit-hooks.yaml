@@ -5,5 +5,5 @@
   description: Check and fix certain terraform entry
   language: python
   entry: python -m hooks/terraform-entry-sorter.py
-  pass_filenames: false
+  additional_dependencies: ['--trusted-host' ,'pypi.org' ,'--trusted-host' ,'files.pythonhosted.org']
   always_run: true
